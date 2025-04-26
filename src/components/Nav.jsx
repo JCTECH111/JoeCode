@@ -26,7 +26,7 @@ function Nav() {
   ];
 
   return (
-    <div className="fixed top-4 left-0 md:left-100 right-0 z-50 shadow-sm w-full md:w-[12cm] md:rounded-4xl">
+    <div className="fixed top-4 left-0 md:left-100 right-0 z-50 px-4 overflow-x-visible md:p-0 shadow-sm w-full md:w-[12cm] md:rounded-4xl">
       <div className="container mx-auto px-4">
         <div className="flex justify-center items-center h-16">
         <div className="flex items-center gap-4 md:gap-6">
