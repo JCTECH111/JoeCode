@@ -8,23 +8,21 @@ function Home() {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
     }
   };
   return (
-    <div className='bg-white flex flex-col gap-3  '>
+    <div className='bg-white w-full flex flex-col gap-5 ml-[4rem]  '>
       <img
         src={avatar}
         className='w-40 h-40 rounded-full'
       />
-      <h1 className="text-3xl">
+      <h1 className="text-2xl md:text-5xl font-bold text-gray-800 ">
         Hey, I'm Jonathan Phillip. <br />
-        Software Engineer
+        <span className="text-blue-600">Software Engineer</span>
       </h1>
-      <p>
+      <p className="text-gray-600 ">
         Pushing boundaries with every project I create.<br />
         Challenger by day, fearless innovator by night
-
       </p>
       <div className='flex gap-3 align-items-center'>
         <LinkingButton
