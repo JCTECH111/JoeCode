@@ -77,7 +77,7 @@ function Nav() {
       </div>
 
       {/* Desktop Navigation */}
-      <div className="fixed md:top-[3rem] top-[4rem] left-1/2 transform -translate-x-1/2 z-50 sm:px-3 hidden md:block">
+      <div className="fixed md:top-[2.4rem] top-[4rem] left-1/2 transform -translate-x-1/2 z-50 sm:px-3 hidden md:block">
         <div className="flex items-center md:gap-5 gap-3 bg-white/80 backdrop-blur-sm rounded-full p-1 shadow-md border border-gray-200">
           {navItems.map((item, index) => (
             <div key={index} className="relative group">
