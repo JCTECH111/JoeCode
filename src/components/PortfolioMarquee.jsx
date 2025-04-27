@@ -9,7 +9,7 @@ import project_7 from "../assets/project-7.png"
 
 function PortfolioMarquee() {
   return (
-    <div className="my-12 absolute md:top-[17cm] top-[12cm]  w-full overflow-hidden  p-4">
+    <div className="my-12 absolute md:top-[15cm] top-[11cm]  w-full overflow-hidden  p-4">
       <Marquee speed={50} pauseOnHover gradient={false} className="py-8">
   {[ project_1, project_2, project_3, project_4, project_5, project_6,project_7 ].map((img, index) => (
     <div 
