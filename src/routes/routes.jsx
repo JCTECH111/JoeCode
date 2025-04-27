@@ -20,7 +20,7 @@ export default function AppRoutes() {
         <Route path="/contact" element={<Contact />} />  
         <Route path="/education" element={<Education />} />  
         <Route path="/skills" element={<Skills />} />  
-        <Route path="/more" element={<More />} />  
+        <Route path="/more" element={<More />} /> 
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
