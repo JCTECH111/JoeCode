@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ImageGallery from '../components/ImageAnimation';
 function About() {
   return (
     <div className='mt-[12cm] md:mt-[14cm] md:ml-[4rem]'>
@@ -23,8 +23,9 @@ function About() {
           Every line of code I write reflects my intellectual curiosity, self-driven mindset, and passion for transforming ideas into powerful digital experiences.
         </p>
         <p className='text-gray-700 mt-4'>
-          Innovation is not just a goal — it's the foundation of everything I create.
+          Innovation is not just a goal, it's the foundation of everything I create.
         </p>
+        <ImageGallery />
     </div>
   );
 }
