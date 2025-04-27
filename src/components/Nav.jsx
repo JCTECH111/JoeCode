@@ -51,7 +51,7 @@ function Nav() {
     <>
       {/* Mobile Header */}
       <div className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-200 p-3 flex justify-between items-center md:hidden">
-        <div className="font-bold text-xl">YourLogo</div>
+        <div className="font-bold text-xl">Joecode</div>
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="p-2 rounded-full hover:bg-gray-200 transition-colors hover:translate-y-[-3px]"
