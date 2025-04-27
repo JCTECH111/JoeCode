@@ -5,6 +5,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Skills from "./Skills";
 import More from "./More";
+import PortfolioMarquee from '../components/PortfolioMarquee';
 function Index() {
     return (
         <div className='w-full flex justify-center  '>
@@ -16,6 +17,7 @@ function Index() {
                 <div id="contact"><Contact /></div>
                 <div id="more"><More /></div>
             </div>
+            <PortfolioMarquee />
         </div>
     )
 }
