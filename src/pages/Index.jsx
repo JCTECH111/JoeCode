@@ -7,13 +7,15 @@ import Skills from "./Skills";
 import More from "./More";
 function Index() {
     return (
-        <div>
-            <div id="home"><Home /></div>
-            <div id="profile"><About /></div>
-            <div id="skills"><Skills /></div>
-            <div id="projects"><Projects /></div>
-            <div id="contact"><Contact /></div>
-            <div id="more"><More /></div>
+        <div className='w-full flex justify-center  '>
+            <div className='w-full md:w-[60%] md:border-1 border-gray-200 pt-[5rem] md:pt-[12rem] px-4'>
+                <div id="home"><Home /></div>
+                <div id="profile"><About /></div>
+                <div id="skills"><Skills /></div>
+                <div id="projects"><Projects /></div>
+                <div id="contact"><Contact /></div>
+                <div id="more"><More /></div>
+            </div>
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='bg-white w-full h-full p-2 pt-[4rem] md:pt-[6rem] '>
+    <div className='bg-white w-full h-full  '>
       Profile
     </div>
   )
