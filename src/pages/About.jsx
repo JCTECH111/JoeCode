@@ -11,7 +11,7 @@ function About() {
       
 
         <p className='text-gray-700 mb-4'>
-          I'm <span className='font-semibold'>Jonathan Phillip</span>, 19, a self-taught developer who began this journey in 2019 fueled by pure passion and a vision to create.
+          I'm <span className='font-semibold'>Jonathan Phillip</span>, 19, a self-taught developer who began this journey in 2021 fueled by pure passion and a vision to create.
         </p>
         <p className='text-gray-700 mb-4'>
           My coding path started with simple experiments and grew into real-world projects, overcoming countless challenges through determination, problem-solving, and endless learning.
