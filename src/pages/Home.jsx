@@ -11,7 +11,7 @@ function Home() {
     }
   };
   return (
-    <div className='bg-white w-full flex flex-col gap-5 ml-[4rem]  '>
+    <div className='bg-white w-full flex flex-col gap-5 md:ml-[4rem]  '>
       <img
         src={avatar}
         className='w-40 h-40 rounded-full'
