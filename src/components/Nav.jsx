@@ -83,7 +83,7 @@ function Nav() {
             <div key={index} className="relative group">
               <Link
                 to={item.path}
-                className={`flex items-center justify-center md:w-14 md:h-14 w-10 h-10 hover:scale-150 rounded-full transition-all duration-200
+                className={`flex items-center justify-center hover:translate-y-[-1rem]  md:w-14 md:h-14 w-10 h-10 hover:scale-150 rounded-full transition-all duration-200
                   ${isActive(item.path)
                     ? 'bg-blue-600 text-white shadow-md scale-110'
                     : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
