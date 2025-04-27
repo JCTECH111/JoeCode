@@ -6,7 +6,7 @@ function PortfolioMarquee() {
     <div className="my-12 absolute md:top-[17cm] top-[12cm]  w-full overflow-hidden  p-4">
       <Marquee speed={40} pauseOnHover gradient={false}>
         {[avatar, avatar, avatar, avatar].map((img, index) => (
-          <div key={index} className="mx-4 w-[300px] h-[180px] overflow-hidden rounded-lg shadow-lg">
+          <div key={index} className="mx-4 w-[300px] h-[180px] overflow-hidden rounded-lg shadow-lg p-4">
             <img 
               src={img} 
               alt={`Project ${index + 1}`} 
