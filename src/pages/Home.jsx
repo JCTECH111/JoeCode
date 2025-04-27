@@ -4,7 +4,7 @@ import LinkingButton from '../components/LinkingButton'
 import { FaGithub } from 'react-icons/fa'
 
 function Home() {
-  const scrollToSection = (sectionId) => {
+  const scrollToSectionId = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -28,7 +28,7 @@ function Home() {
         <LinkingButton
         to="" 
         text="Hire me!"
-        onClick={scrollToSection("contact")}
+        onClick={() => scrollToSectionId("contact")}
         />
         <LinkingButton
           to="https://github.com/JoeCode001"
