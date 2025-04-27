@@ -20,7 +20,7 @@ function Home() {
         Hey, I'm Jonathan Phillip. <br />
         <span className="text-blue-600">Software Engineer</span>
       </h1>
-      <p className="text-gray-600 ">
+      <p className="text-gray-600 md:text-[1.1rem] text-sm">
         Pushing boundaries with every project I create.<br />
         Challenger by day, fearless innovator by night
       </p>
