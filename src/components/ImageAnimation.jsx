@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
 // Import your images
-import MainImage from "../assets/project-7.png";
+import MainImage from "../assets/joecode-1.jpg";
 import project_1 from '../assets/project-1.png';
 import project_2 from '../assets/project-2.png';
 import project_3 from '../assets/project-3.png';
