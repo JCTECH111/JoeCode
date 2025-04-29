@@ -54,7 +54,7 @@ export default function ImageGallery() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto p-6">
+    <div className="max-w-7xl mx-auto pt-3">
       <main className="mb-8 rounded-xl overflow-hidden shadow-lg">
         <AnimatePresence mode="wait">
           <motion.div
