@@ -50,7 +50,7 @@ const TechStackMarquee = () => {
         <h3 className="text-lg font-semibold mb-4 ml-4">Backend:</h3>
         <Marquee speed={45} pauseOnHover gradient={false} className="py-4" direction="right">
           {techStack.slice(6, 12).map((tech, index) => (
-            <div key={index} className="flex flex-col items-center mx-6 px-4 py-3 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <div key={index} className="flex flex-col items-center mx-6 px-4 py-3 bg-white  rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="text-3xl mb-2">{tech.icon}</div>
               <span className="text-sm font-medium">{tech.name}</span>
             </div>
@@ -63,7 +63,7 @@ const TechStackMarquee = () => {
         <h3 className="text-lg font-semibold mb-4 ml-4">Other Tools:</h3>
         <Marquee speed={40} pauseOnHover gradient={false} className="py-4">
           {techStack.slice(13).map((tech, index) => (
-            <div key={index} className="flex flex-col items-center mx-6 px-4 py-3 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <div key={index} className="flex flex-col items-center mx-6 px-4 py-3 bg-white  rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="text-3xl mb-2">{tech.icon}</div>
               <span className="text-sm font-medium">{tech.name}</span>
             </div>
