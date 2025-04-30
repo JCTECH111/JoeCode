@@ -30,7 +30,7 @@ const TechStackMarquee = () => {
 
   return (
     <div className="my-12">
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">My Technical Experience/Skills.</h2>
+      <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6">My Technical Experience/Skills.</h2>
       
       {/* Frontend Marquee */}
       <div className="mb-8">
