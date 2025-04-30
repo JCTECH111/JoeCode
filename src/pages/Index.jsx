@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Skills from "./Skills";
 import More from "./More";
 import PortfolioMarquee from '../components/PortfolioMarquee';
+
 import Footer from '../components/Footer';
 function Index() {
     return (

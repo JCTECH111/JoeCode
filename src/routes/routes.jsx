@@ -2,12 +2,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "../pages/Index";
 import NotFound from "../pages/NotFound";
 import Nav from "../components/Nav";
-
+import ProjectDetail from './ProjectDetails';
 export default function AppRoutes() {
   return (
     <Router>
       <Nav />
       <Routes>
+        <Route path="/" element={<Index />} />
         <Route path="/" element={<Index />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
