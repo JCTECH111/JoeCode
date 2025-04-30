@@ -4,7 +4,7 @@ import contactButtonBg from '../assets/button-image.jpeg'; // Update with your i
 function Contact() {
   return (
     <div className='bg-white mt-20 md:ml-16 max-w-4xl p-8 rounded-xl shadow-md'>
-      <h2 className='text-3xl font-bold text-gray-800 mb-6'>Get in touch</h2>
+      <h2 className='text-3xl md:text-4xl font-bold text-gray-800 mb-6'>Get in touch</h2>
       
       <p className='text-gray-600 mb-8 leading-relaxed'>
         Let’s create something great together. Whether it’s sharing ideas, professional engagement, teaming up on a project, or walking you through my portfolio, I’m just a message or a call away.
