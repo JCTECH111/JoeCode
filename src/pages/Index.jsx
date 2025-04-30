@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Skills from "./Skills";
 import More from "./More";
 import PortfolioMarquee from '../components/PortfolioMarquee';
+import Footer from '../components/Footer';
 function Index() {
     return (
         <div className='w-full flex justify-center  '>
@@ -15,7 +16,8 @@ function Index() {
                 <div id="skills"><Skills /></div>
                 <div id="projects"><Projects /></div>
                 <div id="contact"><Contact /></div>
-                <div id="more"><More /></div>
+                {/* <div id="more"><More /></div> */}
+                <Footer />
             </div>
             <PortfolioMarquee />
         </div>
