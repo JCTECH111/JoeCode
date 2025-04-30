@@ -9,7 +9,7 @@ function ProjectDetail() {
   if (!project) return <div className='text-center py-20'>Project not found</div>;
 
   return (
-    <div className='max-w-4xl mx-auto py-12 px-4'>
+    <div className='max-w-4xl mx-auto py-12 '>
       <div className='mb-8'>
         <img 
           src={project.fullImage} 

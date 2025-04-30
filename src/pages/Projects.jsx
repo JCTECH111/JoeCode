@@ -5,7 +5,7 @@ import { FaAngleRight } from "react-icons/fa6";
 
 function Projects() {
   return (
-    <div className='bg-white w-full mt-40 md:ml-16 max-w-6xl mx-auto px-4'>
+    <div className='bg-white w-full mt-40 md:ml-16 max-w-6xl mx-auto '>
       <h1 className='text-2xl md:text-4xl font-bold text-gray-800 mb-12 text-center md:text-left'>
         A Peek Into My Work
       </h1>
