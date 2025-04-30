@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import projectsData from '../data/projects.json';
+import LinkingButton from '../components/LinkingButton'
 import { FaAngleRight } from "react-icons/fa6";
 
 function Projects() {
+  // const baseUrl = import.meta.env.VITE_BASE_URL;
   return (
     <div className='bg-white w-full mt-40 md:ml-16 max-w-6xl mx-auto '>
       <h1 className='text-2xl md:text-4xl font-bold text-gray-800 mb-12 text-center md:text-left'>
@@ -42,6 +44,15 @@ function Projects() {
             </div>
           </div>
         ))}
+      </div>
+      <div className='w-full flex text-center justify-center'>
+      <LinkingButton
+          to="/projects"
+          text="View All"
+          className='mt-9'
+          isExternal={false}
+          target="_self"
+        />
       </div>
     </div>
   );
