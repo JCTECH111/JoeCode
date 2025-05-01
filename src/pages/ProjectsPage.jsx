@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import projectsData from '../data/projects.json';
-
+import Project9 from "../assets/project-9.png"
 function ProjectsPage() {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 pt-[5rem]">
@@ -24,7 +24,7 @@ function ProjectsPage() {
               {/* Project Thumbnail */}
               <div className="h-48 overflow-hidden">
                 <img
-                  src={project.thumbnail}
+                  src={project.thumbnail === "" ? Project9 : project.thumbnail}
                   alt={project.title}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
