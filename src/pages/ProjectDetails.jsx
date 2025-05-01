@@ -46,12 +46,12 @@ function ProjectDetail() {
         </div>
       </div>
 
-      <div className='w-full md:w-1/2 flex gap-4 p-2'>
+      <div className='w-full md:w-1/2 flex gap-4 p-2 overflow-hidden relative'>
         <Link
           to={`/`}
           className=' flex  items-center whitespace-nowrap px-2 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800 transition-colors'
         >
-          <FaAngleLeft size={15} className='ml-3 font-bold float-left ' /> Back to Projects
+          <FaAngleLeft size={15} className=' font-bold float-left ' /> Back to Projects
         </Link>
         <LinkingButton
           to="https://github.com/JoeCode001/Food-Delivery-e-commerce-"
