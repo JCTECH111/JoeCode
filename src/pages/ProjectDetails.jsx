@@ -1,20 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import projectsData from '../data/projects.json';
 import { FaAngleLeft, FaGithub } from 'react-icons/fa6';
 import LinkingButton from '../components/LinkingButton';
 import Project9 from "../assets/project-9.png"
+import Project10 from '../assets/project-10.png';
 function ProjectDetail() {
   const { id } = useParams();
   const project = projectsData.find(p => p.id === id);
 
   if (!project) return <div className='text-center py-20 '>Project not found</div>;
-
+  const [customThumbnails, setCustomThumbnails] = useState({});
+  // Get image source for a specific project
+  const getImageSource = (project) => {
+    if (customThumbnails[project.id]) return customThumbnails[project.id];
+    if (project.thumbnail) return project.thumbnail;
+    return project.id === "pidgin-pal" ? Project9 : Project10;
+  };
   return (
     <div className='max-w-4xl mx-auto py-12 px-3 pt-[5rem]'>
       <div className='mb-8'>
         <img
-          src={project.fullImage === "" ? Project9 : project.thumbnail}
+          src={getImageSource(project)}
           alt={project.title}
           className='w-full h-auto rounded-xl shadow-md'
         />

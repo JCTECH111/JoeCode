@@ -52,5 +52,29 @@
       "github_url" :"" ,
       "thumbnail": "",
       "fullImage": ""
+    },
+    {
+      "id": "jsync",
+      "title": "Jsync",
+      "subtitle": "A file management system",
+      "shortDescription": "A user-friendly file management system that enables users to securely upload, organize, and manage their files online. Built with React and powered by Appwrite for backend services.",
+      "fullDescription": "A robust file manager web application built using React and Appwrite. This project allows users to upload, view, download, and manage their files efficiently. It includes user authentication, file metadata management, and a responsive design for seamless user experience.",
+      "stack": ["React 18", "TailwindCSS", "Appwrite"],
+      "features": [
+        "User Authentication",
+        "File Uploads",
+        "File Download",
+        "File Sharing",
+        "File Searching",
+        "File Management",
+        "Profile Images",
+        "Responsive Design",
+        "Email Verification"
+      ],
+      "github_status" : false,
+      "project_url": "jsync.vercel.app",
+      "github_url" :"" ,
+      "thumbnail": "",
+      "fullImage": ""
     }
   ]

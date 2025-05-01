@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import projectsData from '../data/projects.json';
 import Project9 from "../assets/project-9.png"
+import Project10 from '../assets/project-10.png';
 function ProjectsPage() {
+    const [customThumbnails, setCustomThumbnails] = useState({});
+    // Get image source for a specific project
+    const getImageSource = (project) => {
+      if (customThumbnails[project.id]) return customThumbnails[project.id];
+      if (project.thumbnail) return project.thumbnail;
+      return project.id === "pidgin-pal" ? Project9 : Project10;
+    };
+  
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 pt-[5rem]">
       <div className="max-w-7xl mx-auto">
@@ -24,7 +33,7 @@ function ProjectsPage() {
               {/* Project Thumbnail */}
               <div className="h-48 overflow-hidden">
                 <img
-                  src={project.thumbnail === "" ? Project9 : project.thumbnail}
+                  src={getImageSource(project)}
                   alt={project.title}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
