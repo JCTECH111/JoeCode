@@ -13,6 +13,7 @@
         "Secure Payments",
         "Admin Panel"
       ],
+      "github_status" :true,
       "github_url" :"https://github.com/JoeCode001/Food-Delivery-e-commerce-" ,
       "thumbnail": "https://github.com/JoeCode001/Food-Delivery-e-commerce-/raw/main/readme_img/project-8.png",
       "fullImage": "https://github.com/JoeCode001/Food-Delivery-e-commerce-/raw/main/readme_img/project-8.png"
@@ -31,8 +32,25 @@
         " Housekeeping",
         "Payments & Invoices"
       ],
+      "github_status" : true,
       "github_url" :"https://github.com/JoeCode001/Hotel-management-system" ,
       "thumbnail": "https://github.com/JoeCode001/Hotel-management-system/raw/main/readme_img/DASHBOARD.png",
       "fullImage": "https://github.com/JoeCode001/Hotel-management-system/raw/main/readme_img/staff-booking-room.png"
+    },
+    {
+      "id": "pidgin-pal",
+      "title": "No-Joy-Ai",
+      "subtitle": "An Ai Chatbot",
+      "shortDescription": "PidginPal is a fun and interactive AI chatbot that speaks fluent Nigerian Pidgin English.",
+      "fullDescription": "PidginPal is a fun and interactive AI chatbot that speaks fluent Nigerian Pidgin English.",
+      "stack": ["React 18", "TailwindCSS", "PHP", "MySQL ", "OpenAi"],
+      "features": [
+        "Speaks Fluent Nigerian Pidgin English"
+      ],
+      "github_status" : false,
+      "project_url": "https://pidginpal.vercel.app/",
+      "github_url" :"" ,
+      "thumbnail": "",
+      "fullImage": ""
     }
   ]

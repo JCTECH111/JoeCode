@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import projectsData from '../data/projects.json';
 import { FaAngleLeft, FaGithub } from 'react-icons/fa6';
 import LinkingButton from '../components/LinkingButton';
-
+import Project9 from "../assets/project-9.png"
 function ProjectDetail() {
   const { id } = useParams();
   const project = projectsData.find(p => p.id === id);
@@ -14,7 +14,7 @@ function ProjectDetail() {
     <div className='max-w-4xl mx-auto py-12 px-3 pt-[5rem]'>
       <div className='mb-8'>
         <img
-          src={project.fullImage}
+          src={project.fullImage === "" ? Project9 : project.thumbnail}
           alt={project.title}
           className='w-full h-auto rounded-xl shadow-md'
         />
@@ -53,14 +53,24 @@ function ProjectDetail() {
         >
           <FaAngleLeft size={15} className=' font-bold float-left ' /> Back to Projects
         </Link>
-        <LinkingButton
-          to={project.github_url}
-          text="Vew in Github"
-          icon={<FaGithub />}
+        {project.github_statusl ? (
+            <LinkingButton
+            to={project.github_url}
+            text="Vew in Github"
+            icon={<FaGithub />}
+            isExternal={true}
+            target="_blank"
+            className='whitespace-nowrap'
+          />
+          ) : (
+            <LinkingButton
+          to={project.project_url}
+          text="Visit Project"
           isExternal={true}
           target="_blank"
           className='whitespace-nowrap'
         />
+          )}
       </div>
     </div>
   );

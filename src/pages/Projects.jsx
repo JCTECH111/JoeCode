@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import projectsData from '../data/projects.json';
 import LinkingButton from '../components/LinkingButton'
 import { FaAngleRight } from "react-icons/fa6";
+import Project9 from "../assets/project-9.png"
 
 function Projects() {
   // const baseUrl = import.meta.env.VITE_BASE_URL;
@@ -17,7 +18,7 @@ function Projects() {
           <div key={project.id} className='border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow'>
             <div className='h-48 overflow-hidden'>
               <img 
-                src={project.thumbnail} 
+               src={project.thumbnail === "" ? Project9 : project.thumbnail}
                 alt={project.title}
                 className='w-full h-full object-cover'
               />
