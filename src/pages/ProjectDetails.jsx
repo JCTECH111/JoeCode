@@ -49,7 +49,7 @@ function ProjectDetail() {
       <div className='w-full md:w-1/2 flex gap-4 p-2'>
         <Link
           to={`/`}
-          className=' flex  items-center whitespace-nowrap px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800 transition-colors'
+          className=' flex  items-center whitespace-nowrap px-2 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800 transition-colors'
         >
           <FaAngleLeft size={15} className='ml-3 font-bold float-left ' /> Back to Projects
         </Link>
@@ -59,6 +59,7 @@ function ProjectDetail() {
           icon={<FaGithub />}
           isExternal={true}
           target="_blank"
+          className='whitespace-nowrap'
         />
       </div>
     </div>
