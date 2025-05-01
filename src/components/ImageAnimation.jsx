@@ -3,11 +3,9 @@ import { useState } from "react";
 
 // Import your images
 import MainImage from "../assets/joecode-1.jpg";
-import project_1 from '../assets/project-1.png';
-import project_2 from '../assets/project-2.png';
-import project_3 from '../assets/project-3.png';
-import project_4 from '../assets/project-4.png';
-import project_5 from "../assets/project-5.png"
+import project_1 from '../assets/joecode-2.jpg';
+import project_2 from "../assets/joecode-3.jpg";
+
 
 
 function ProductImage({ image, onExpand, isActive }) {
@@ -22,7 +20,7 @@ function ProductImage({ image, onExpand, isActive }) {
       <motion.img
         src={image}
         alt="Gallery item"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-contain rounded-xl"
         layoutId={`product-${image}`}
         transition={{ duration: 0.3 }}
       />
@@ -39,7 +37,7 @@ function ProductImage({ image, onExpand, isActive }) {
 
 export default function ImageGallery() {
   // Use your actual imported images
-  const [galleryImages, setGalleryImages] = useState([project_1, project_2, project_3, project_4, project_5]);
+  const [galleryImages, setGalleryImages] = useState([project_1,project_2 ]);
   const [primaryImage, setPrimaryImage] = useState(MainImage);
 
   function setAsPrimary(image) {
@@ -66,7 +64,7 @@ export default function ImageGallery() {
             layout
           >
             <motion.img
-              className="w-full h-auto max-h-[70vh] object-cover"
+              className="w-full h-auto max-h-[70vh] object-contain"
               src={primaryImage}
               alt="Featured gallery item"
               layoutId={`product-${primaryImage}`}
