@@ -60,7 +60,7 @@ function ProjectDetail() {
         >
           <FaAngleLeft size={15} className=' font-bold float-left ' /> Back to Projects
         </Link>
-        {project.github_statusl ? (
+        {project.github_status ? (
             <LinkingButton
             to={project.github_url}
             text="Vew in Github"
