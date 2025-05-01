@@ -13,23 +13,26 @@
         "Secure Payments",
         "Admin Panel"
       ],
+      "github_url" :"https://github.com/JoeCode001/Food-Delivery-e-commerce-" ,
       "thumbnail": "https://github.com/JoeCode001/Food-Delivery-e-commerce-/raw/main/readme_img/project-8.png",
       "fullImage": "https://github.com/JoeCode001/Food-Delivery-e-commerce-/raw/main/readme_img/project-8.png"
     },
     {
-      "id": "ondepay",
-      "title": "Ondepay Virtual Card V2",
-      "subtitle": "Digital payment solution",
-      "shortDescription": "Enhanced virtual card system with improved user experience and advanced security features.",
-      "fullDescription": "Next-generation virtual card solution with enhanced security features and improved user experience. The platform supports instant card generation, spending limits, and merchant restrictions.",
-      "stack": ["React Native", "Firebase", "GraphQL", "TypeScript", "Node.js"],
+      "id": "hms",
+      "title": "Hotel Management System",
+      "subtitle": "HMS Application",
+      "shortDescription": "A full-stack web application for managing hotel operations, bookings, staff, and guest services with role-based access control.",
+      "fullDescription": "The Hotel Management System is a full-stack web application designed to streamline hotel operations, including guest bookings, employee management, room allocation, housekeeping tracking, and payments. The system provides a seamless experience for guests and staff, ensuring efficient management of hotel resources.",
+      "stack": ["React 18", "TailwindCSS", "PHP", "MySQL ", "JWT Authentication", "Paystack integration"],
       "features": [
-        "Instant virtual card generation",
-        "Custom spending limits",
-        "Merchant category restrictions",
-        "Real-time notifications"
+        " Authentication & Roles",
+        "Room Management",
+        "Booking System",
+        " Housekeeping",
+        "Payments & Invoices"
       ],
-      "thumbnail": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.th9PP5ztJug6QUp1lY0-BwHaEK%3Fpid%3DApi&sp=1746044360T6583d97bbcccb348ec06be2cd4edb2c14886126ed06116cad2eab8f392b6dab3",
-      "fullImage": "https://cdn.dribbble.com/userupload/3486525/file/original-127496a2740e00cdd230bf6f6b9fd500.jpg?format=webp&resize=320x240&vertical=center"
+      "github_url" :"https://github.com/JoeCode001/Hotel-management-system" ,
+      "thumbnail": "https://github.com/JoeCode001/Hotel-management-system/raw/main/readme_img/DASHBOARD.png",
+      "fullImage": "https://github.com/JoeCode001/Hotel-management-system/raw/main/readme_img/staff-booking-room.png"
     }
   ]

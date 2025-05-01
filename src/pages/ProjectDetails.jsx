@@ -54,7 +54,7 @@ function ProjectDetail() {
           <FaAngleLeft size={15} className=' font-bold float-left ' /> Back to Projects
         </Link>
         <LinkingButton
-          to="https://github.com/JoeCode001/Food-Delivery-e-commerce-"
+          to={project.github_url}
           text="Vew in Github"
           icon={<FaGithub />}
           isExternal={true}
