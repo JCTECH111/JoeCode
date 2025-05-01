@@ -35,7 +35,7 @@ const TechStackMarquee = () => {
       {/* Frontend Marquee */}
       <div className="mb-8">
         <h3 className="text-lg font-semibold mb-4 ml-4">Frontend:</h3>
-        <Marquee speed={50} pauseOnHover gradient={false} className="py-4">
+        <Marquee speed={50}  gradient={false} className="py-4">
           {techStack.slice(0, 6).map((tech, index) => (
             <div key={index} className="flex flex-col items-center mx-6 px-4 py-3 bg-white  rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="text-3xl mb-2">{tech.icon}</div>

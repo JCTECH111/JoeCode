@@ -6,12 +6,14 @@ import project_4 from "../assets/project-4.png"
 import project_5 from "../assets/project-5.png"
 import project_6 from "../assets/project-6.png"
 import project_7 from "../assets/project-7.png"
+import project_8 from "../assets/project-8.png"
 
 function PortfolioMarquee() {
+  
   return (
     <div className="my-12 absolute md:top-[15cm] top-[11cm]  w-full overflow-hidden  p-4">
-      <Marquee speed={50} pauseOnHover gradient={false} className="py-8">
-  {[ project_1, project_2, project_3, project_4, project_5, project_6,project_7 ].map((img, index) => (
+      <Marquee speed={50}  gradient={false} className="py-8">
+  {[ project_8, project_1, project_2, project_3, project_4, project_5, project_6,project_7 ].map((img, index) => (
     <div 
       key={index} // Don't forget the key prop
       className="transition-transform duration-500 hover:scale-105 relative mx-3 w-[12.5cm] h-[18rem] flex items-center justify-center bg-gray-50 rounded-3xl p-[2rem]  "
