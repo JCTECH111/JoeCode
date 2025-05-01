@@ -1,20 +1,20 @@
 
 [
     {
-      "id": "payforeign",
-      "title": "PayForeign",
-      "subtitle": "International payment gateway platform",
-      "shortDescription": "Facilitating cross-border transactions and currency conversions with competitive rates.",
-      "fullDescription": "A comprehensive international payment gateway platform that facilitates cross-border transactions with competitive exchange rates and low fees. The system integrates with multiple banking APIs and provides real-time transaction tracking.",
-      "stack": ["React", "Node.js", "Express", "MongoDB", "Stripe API", "AWS Lambda"],
+      "id": "bite-express",
+      "title": "BiteExpress",
+      "subtitle": "E-commerce Food Delivery Platform",
+      "shortDescription": "Craving something delicious? BiteExpress delivers your favorite meals quick, easy, and secure!",
+      "fullDescription": "Welcome to BiteExpress, your go-to platform for fast, reliable, and hassle-free food delivery! Explore a wide range of cuisines from local restaurants, place orders seamlessly, and enjoy delicious meals delivered straight to your doorstep. Perfect for food lovers on the go!",
+      "stack": ["React", "Node.js", "Express", "MongoDB", "Stripe API", "JWT"],
       "features": [
-        "Multi-currency support",
-        "Real-time exchange rates",
-        "Transaction tracking dashboard",
-        "Fraud detection system"
+        "Browse Food Items",
+        "Order Management:",
+        "Secure Payments",
+        "Admin Panel"
       ],
-      "thumbnail": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.MInViflWTn0CIsOU3esbLwHaE5%3Fpid%3DApi&sp=1746044360Teac7fd4d2178e8b82f52b0538ddeff483ee22fb96a48cf9ac72fba9e5fe934d9",
-      "fullImage": "https://cdn.dribbble.com/userupload/43031055/file/original-4c66740b49d39f94fc945153eaa36abd.png?format=webp&resize=320x240&vertical=center"
+      "thumbnail": "https://github.com/JoeCode001/Food-Delivery-e-commerce-/raw/main/readme_img/project-8.png",
+      "fullImage": "https://github.com/JoeCode001/Food-Delivery-e-commerce-/raw/main/readme_img/project-8.png"
     },
     {
       "id": "ondepay",
