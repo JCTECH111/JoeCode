@@ -1,5 +1,34 @@
 
 [
+  {
+    "id": "opti-scrape",
+    "title": "Optiscrape",
+    "subtitle": "Meta Tags, Speed & Social Previews—All in One Tool",
+    "shortDescription": "SEO Analyzer Pro is a comprehensive tool that examines websites for search engine optimization factors, providing detailed reports on meta tags, social media previews, and performance metrics with AI-powered improvement recommendations.",
+    "fullDescription": "SEO Analyzer Pro is an advanced web-based tool designed to help developers, marketers, and website owners optimize their online presence. The platform performs in-depth analysis of websites, extracting and categorizing all meta tags including standard, OpenGraph, and Twitter Card metadata. It generates visual social media previews showing exactly how links will appear when shared on platforms like Facebook and Twitter. The system includes a powerful AI component that evaluates current SEO implementation and provides actionable improvement suggestions, scoring websites on a 100-point performance scale. Additional features include PageSpeed insights for performance optimization and detailed warnings about missing or problematic tags. The intuitive interface presents technical SEO data in an accessible format, with clear categorization of meta tags and prioritized recommendations. Built with FastAPI and Selenium, the tool offers accurate, up-to-date analysis while handling modern web technologies. Whether you're auditing a new site or refining an existing one, SEO Analyzer Pro delivers the comprehensive insights needed to maximize search visibility and social sharing effectiveness.",
+    "stack": ["React 18", "TailwindCSS", "Python", "selenium", "Flask", "OpenAi", "PAGESPEED" ],
+    "features": [
+      "Meta Tag Analysis",
+      "Social Media Preview",
+      "AI-Powered Recommendations",
+      "Technical SEO Audit",
+      "Performance Insights",
+      "User-Friendly Interface",
+      "Developer-Friendly API"
+    ],
+    "recommendation" : [
+      "Web developers implementing SEO",
+      "Digital marketers optimizing content",
+      "Site owners monitoring their search presence",
+      "Agencies providing SEO services to clients",
+      "Content creators ensuring shareability"
+    ],
+    "github_status" : false,
+    "project_url": "https://opti-scrape.vercel.app/",
+    "github_url" :"" ,
+    "thumbnail": "https://opti-scrape.vercel.app/image.png",
+    "fullImage": "https://opti-scrape.vercel.app/image.png"
+  },
     {
       "id": "bite-express",
       "title": "BiteExpress",
@@ -76,34 +105,5 @@
       "github_url" :"" ,
       "thumbnail": "",
       "fullImage": ""
-    },
-    {
-      "id": "opti-scrape",
-      "title": "Optiscrape",
-      "subtitle": "Meta Tags, Speed & Social Previews—All in One Tool",
-      "shortDescription": "SEO Analyzer Pro is a comprehensive tool that examines websites for search engine optimization factors, providing detailed reports on meta tags, social media previews, and performance metrics with AI-powered improvement recommendations.",
-      "fullDescription": "SEO Analyzer Pro is an advanced web-based tool designed to help developers, marketers, and website owners optimize their online presence. The platform performs in-depth analysis of websites, extracting and categorizing all meta tags including standard, OpenGraph, and Twitter Card metadata. It generates visual social media previews showing exactly how links will appear when shared on platforms like Facebook and Twitter. The system includes a powerful AI component that evaluates current SEO implementation and provides actionable improvement suggestions, scoring websites on a 100-point performance scale. Additional features include PageSpeed insights for performance optimization and detailed warnings about missing or problematic tags. The intuitive interface presents technical SEO data in an accessible format, with clear categorization of meta tags and prioritized recommendations. Built with FastAPI and Selenium, the tool offers accurate, up-to-date analysis while handling modern web technologies. Whether you're auditing a new site or refining an existing one, SEO Analyzer Pro delivers the comprehensive insights needed to maximize search visibility and social sharing effectiveness.",
-      "stack": ["React 18", "TailwindCSS", "Python", "selenium", "Flask", "OpenAi", "PAGESPEED" ],
-      "features": [
-        "Meta Tag Analysis",
-        "Social Media Preview",
-        "AI-Powered Recommendations",
-        "Technical SEO Audit",
-        "Performance Insights",
-        "User-Friendly Interface",
-        "Developer-Friendly API"
-      ],
-      "recommendation" : [
-        "Web developers implementing SEO",
-        "Digital marketers optimizing content",
-        "Site owners monitoring their search presence",
-        "Agencies providing SEO services to clients",
-        "Content creators ensuring shareability"
-      ],
-      "github_status" : false,
-      "project_url": "https://opti-scrape.vercel.app/",
-      "github_url" :"" ,
-      "thumbnail": "https://opti-scrape.vercel.app/image.png",
-      "fullImage": "https://opti-scrape.vercel.app/image.png"
     }
   ]
